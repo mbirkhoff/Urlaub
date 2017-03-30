@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" extends="task" label="Urlaubsantrag" max_length="40" name="x_snc_urlaub_urlaubsantrag" type="collection">
+        <element label="Start Date" mandatory="true" max_length="40" name="u_glide_date_1" type="glide_date"/>
+        <element label="End Date" mandatory="true" max_length="40" name="u_glide_date_2" type="glide_date"/>
+    </element>
+</database>
